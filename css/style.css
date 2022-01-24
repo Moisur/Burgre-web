@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&family=Poppins:wght@400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+header{
+    width: 100%;
+    height: inherit;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+.text-color{
+    color: #fff;
+    text-shadow: 2px 3px 4px black;
+}
+.spantext-color{
+    color: rgb(255, 221, 0);
+}
