@@ -10,9 +10,10 @@ body{
 /* header-area style  */
 header{
     width: 100%;
-    height: inherit;
+    height: 100%;
     background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
     margin-bottom: 50px;
+    background-size: cover;
 }
 .text-color{
     color: #fff;
@@ -22,4 +23,7 @@ header{
     color: rgb(255, 221, 0);
 }
 
+.hver-area:hover{
+    color: red !important;
+}
 /* main area  */
