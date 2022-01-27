@@ -22,10 +22,12 @@ header{
     background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
     background-size: cover;
     margin-bottom: 50px;
+    overflow: hidden;
 }
 a:hover{
     color: black !important;  
 }
+
 @media only screen and (min-width: 1150px) {
    
     header{
@@ -47,6 +49,18 @@ a:hover{
 }
 
 /* main area  */
+
+.homearrow{
+    background-color: rgb(255, 0, 255);
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    font-size:16px;
+    border-radius: 50%;
+    position: fixed;
+    top: 630px;
+    right: 3px;
+} 
 .card{
     overflow:hidden;
 }
@@ -60,7 +74,18 @@ a:hover{
         text-align: center;
         margin: auto;
         margin-bottom: 40px;
-       
-
     }
+    footer{
+        text-align: center;
+    }
+}
+.mapouter{
+    margin-bottom: 250px;
+}
+footer p{
+    color: rgb(211, 211, 212);
+}
+.footermedia i{
+    font-size: 23px;
+    padding-right: 15px;
 }
