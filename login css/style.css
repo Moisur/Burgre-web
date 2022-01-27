@@ -30,5 +30,10 @@ header{
 @media only screen and (max-width: 459px) {
     .creatacound{
         width: 80%;
+        padding: 2px;
+    }
+    .login-area11{
+        width: 80%;
+        padding: 2px;
     }
 }
