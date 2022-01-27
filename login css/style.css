@@ -27,15 +27,23 @@ header{
     background-color: white;
     padding: 40px;
 }
-@media only screen and (max-width: 459px) {
+ @media only screen and (max-width: 459px) {
     .creatacound{
         width: 80%;
-        padding: 2px;
+        padding: 20px;
+    }
+} 
+@media only screen and (max-width: 777px) {
+    .creatacound{
+       margin-top: 30px; 
+    }
+    .creat-header{
+       height: 800px;
     }
 }
 @media only screen and (max-width: 360px) {
     .login-area11{
         width: 90%;
-        margin: 20px auto;
+        padding:0 16px;
     }
 }
