@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing:border-box;
 }
+/* Home are strad */
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -27,14 +28,12 @@ header{
 a:hover{
     color: black !important;  
 }
-
 @media only screen and (min-width: 1150px) {
    
     header{
         height:100vh;
     }
 }
-
 @media only screen and (max-width: 996px) {
    
     .homescreen{
@@ -47,9 +46,7 @@ a:hover{
         text-align: center;
     }
 }
-
 /* main area  */
-
 .homearrow{
     background-color: rgb(255, 0, 255);
     color: white;
@@ -89,3 +86,4 @@ footer p{
     font-size: 23px;
     padding-right: 15px;
 }
+/* Home are end */
