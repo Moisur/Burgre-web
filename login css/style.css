@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* login-area */
+body{
+    height: 100vh;
+    background-color: rgba(121, 113, 113, 0.669);
+    
+}
+header{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-area11{
+    background-color: #fff;
+    padding: 40px;
+}
+/* creat accound  */
+.creatacound{
+    width: 50%;
+    margin: auto;
+    color: black;
+    background-color: white;
+    padding: 40px;
+}
+@media only screen and (max-width: 459px) {
+    .creatacound{
+        width: 80%;
+    }
+}
